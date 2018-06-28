@@ -95,16 +95,16 @@
                             <show_in_store>0</show_in_store>
                             <comment><![CDATA[Note: Only U.S. businesses can accept JCB, Discover, and Diners Club. <a href="https://support.stripe.com/questions/which-cards-and-payment-types-can-i-accept-with-stripe" target="_blank">More info</a>]]></comment>
                         </cctype>
-                        <save_cc_enabled translate="label">
-                            <label>Allow credit cards to be saved?</label>
-                            <frontend_type>select</frontend_type>
-                            <sort_order>85</sort_order>
-                            <source_model>adminhtml/system_config_source_yesno</source_model>
-                            <show_in_default>1</show_in_default>
-                            <show_in_website>1</show_in_website>
-                            <show_in_store>0</show_in_store>
-                            <comment><![CDATA[Card data is stored in Stripe]]></comment>
-                        </save_cc_enabled>
+                        <!--<save_cc_enabled translate="label">-->
+                            <!--<label>Allow credit cards to be saved?</label>-->
+                            <!--<frontend_type>select</frontend_type>-->
+                            <!--<sort_order>85</sort_order>-->
+                            <!--<source_model>adminhtml/system_config_source_yesno</source_model>-->
+                            <!--<show_in_default>1</show_in_default>-->
+                            <!--<show_in_website>1</show_in_website>-->
+                            <!--<show_in_store>0</show_in_store>-->
+                            <!--<comment><![CDATA[Card data is stored in Stripe]]></comment>-->
+                        <!--</save_cc_enabled>-->
                         <jquery_enabled translate="label">
                             <label>Enable jQuery in frontend?</label>
                             <frontend_type>select</frontend_type>

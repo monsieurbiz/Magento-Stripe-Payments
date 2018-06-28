@@ -102,7 +102,7 @@ class District_Stripe_Helper_Data extends Mage_Core_Helper_Abstract
      *
      * @param $amount
      * @param $currencyCode
-     * @return float
+     * @return int
      */
     public function calculateCurrencyAmount($amount, $currencyCode)
     {
@@ -130,7 +130,7 @@ class District_Stripe_Helper_Data extends Mage_Core_Helper_Abstract
             $amount = $amount * 100;
         }
 
-        return $amount;
+        return round($amount);
     }
 
     /**
