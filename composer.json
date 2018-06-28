@@ -1,0 +1,19 @@
+{
+  "name": "monsieurbiz/district_stripe",
+  "description": "Stripe Credit Cards Extension for Magento 1.",
+  "type": "magento-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nick Rigby",
+      "email": "nick.rigby@gmail.com"
+    },
+    {
+      "name": "Maxime Huran",
+      "email": "m.huran@monsieurbiz.com"
+    }
+  ],
+  "suggest": {
+    "magento-hackathon/magento-composer-installer": "Allows to manage this package as a dependency."
+  }
+}

@@ -1,0 +1,12 @@
+app/code/community/District/Stripe app/code/community/District/Stripe
+app/design/adminhtml/default/default/layout/district/stripe app/design/adminhtml/default/default/layout/district/stripe
+app/design/adminhtml/default/default/template/district/stripe app/design/adminhtml/default/default/template/district/stripe
+app/design/frontend/base/default/layout/district/stripe app/design/frontend/base/default/layout/district/stripe
+app/design/frontend/base/default/template/district/stripe app/design/frontend/base/default/template/district/stripe
+app/etc/modules/District_Stripe.xml app/etc/modules/District_Stripe.xml
+app/locale/en_US/District_Stripe.csv app/locale/en_US/District_Stripe.csv
+js/district/stripe js/district/stripe
+lib/Stripe lib/Stripe
+skin/adminhtml/default/default/district/stripe skin/adminhtml/default/default/district/stripe
+skin/frontend/base/default/css/district/stripe skin/frontend/base/default/css/district/stripe
+skin/frontend/base/default/images/district/stripe skin/frontend/base/default/images/district/stripe
