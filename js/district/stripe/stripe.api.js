@@ -1,1 +1,1 @@
-document.write('<script src="https://js.stripe.com/v2/"><\/script>');
+document.write('<script src="https://js.stripe.com/v3/"><\/script>');

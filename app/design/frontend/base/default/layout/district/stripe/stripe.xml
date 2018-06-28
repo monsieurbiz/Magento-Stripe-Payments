@@ -48,7 +48,7 @@
             <action method="addCss"><stylesheet>css/district/stripe/styles.css</stylesheet></action>
             <block type="core/text" name="district.stripe.api">
                 <action method="setText">
-                    <text><![CDATA[<script src="https://js.stripe.com/v2/"></script>]]></text>
+                    <text><![CDATA[<script src="https://js.stripe.com/v3/"></script>]]></text>
                 </action>
             </block>
             <action method="addItem"><type>js</type><name>district/stripe/placeholders.js</name><params /><if>lte IE 9</if></action>
@@ -64,7 +64,7 @@
             <action method="addCss"><stylesheet>css/district/stripe/styles.css</stylesheet></action>
             <block type="core/text" name="district.stripe.api">
                 <action method="setText">
-                    <text><![CDATA[<script src="https://js.stripe.com/v2/"></script>]]></text>
+                    <text><![CDATA[<script src="https://js.stripe.com/v3/"></script>]]></text>
                 </action>
             </block>
             <action method="addItem"><type>js</type><name>district/stripe/placeholders.js</name><params /><if>lte IE 9</if></action>
