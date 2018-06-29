@@ -400,12 +400,12 @@ class District_Stripe_Model_Method_Cc extends Mage_Payment_Model_Method_Abstract
             }
 
             //Throw payment error
-            throw new Mage_Payment_Model_Info_Exception(Mage::helper('stripe')->__($error['message']));
+            throw new Mage_Payment_Model_Info_Exception(Mage::helper('stripe')->__($error['message']), 0, $e);
 
         } catch (Exception $e) {
 
             //Throw payment error
-            throw new Mage_Payment_Model_Info_Exception(Mage::helper('stripe')->__($e->getMessage()));
+            throw new Mage_Payment_Model_Info_Exception(Mage::helper('stripe')->__($e->getMessage()), 0, $e);
 
         }
 
