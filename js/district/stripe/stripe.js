@@ -53,7 +53,6 @@ district.stripeCc = function ($) {
      * Create token and add it to form or display error
      */
     self.createToken = function() {
-        console.log(address.country);
         $stripe.createToken($card.element, {
             address_country: address.country,
             address_line1: address.line1,
