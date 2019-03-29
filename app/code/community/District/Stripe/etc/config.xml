@@ -46,15 +46,6 @@
             </stripe>
         </blocks>
         <events>
-            <controller_front_init_before>
-                <observers>
-                    <stripe>
-                        <class>District_Stripe_Model_Observer_Autoloader</class>
-                        <type>singleton</type>
-                        <method>controllerFrontInitBefore</method>
-                    </stripe>
-                </observers>
-            </controller_front_init_before>
             <sales_model_service_quote_submit_failure>
                 <observers>
                     <stripe>
