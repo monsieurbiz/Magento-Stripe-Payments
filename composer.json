@@ -13,6 +13,9 @@
       "email": "m.huran@monsieurbiz.com"
     }
   ],
+  "require": {
+    "stripe/stripe-php": "^6.31"
+  },
   "suggest": {
     "magento-hackathon/magento-composer-installer": "Allows to manage this package as a dependency."
   }
