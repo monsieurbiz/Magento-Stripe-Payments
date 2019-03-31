@@ -294,7 +294,7 @@ class District_Stripe_Model_Method_Cc extends Mage_Payment_Model_Method_Abstract
      * Retrieve Stripe Token
      *
      * @param $tokenString
-     * @return bool|\Stripe\Token
+     * @return bool|\Stripe\StripeObject
      */
     protected function _retrieveToken($tokenString)
     {
@@ -315,7 +315,7 @@ class District_Stripe_Model_Method_Cc extends Mage_Payment_Model_Method_Abstract
      * @param Varien_Object $payment
      * @param $amount
      * @param bool $capture
-     * @return \Stripe\Charge
+     * @return \Stripe\ApiResource
      */
     protected function _createCharge(Varien_Object $payment, $amount, $capture = true)
     {
@@ -416,7 +416,7 @@ class District_Stripe_Model_Method_Cc extends Mage_Payment_Model_Method_Abstract
      * Retrieve charge
      *
      * @param $transactionId
-     * @return bool|\Stripe\Charge
+     * @return bool|\Stripe\StripeObject
      */
     protected function _retrieveCharge($transactionId)
     {
@@ -438,7 +438,7 @@ class District_Stripe_Model_Method_Cc extends Mage_Payment_Model_Method_Abstract
      * @param $transactionId
      * @param $amount
      * @param $payment
-     * @return bool|\Stripe\Refund
+     * @return bool|\Stripe\ApiResource
      */
     protected function _createRefund($transactionId, $amount, $payment)
     {
