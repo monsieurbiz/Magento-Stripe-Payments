@@ -96,6 +96,7 @@
                 <title>Stripe</title>
                 <api_secret_key backend_model="adminhtml/system_config_backend_encrypted" />
                 <api_publishable_key backend_model="adminhtml/system_config_backend_encrypted" />
+                <webhook_signing_secret backend_model="adminhtml/system_config_backend_encrypted" />
                 <payment_action>authorize_capture</payment_action>
                 <cctype>AE,MC,VI</cctype>
                 <save_cc_enabled>0</save_cc_enabled>
