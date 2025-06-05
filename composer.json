@@ -14,7 +14,7 @@
     }
   ],
   "require": {
-    "stripe/stripe-php": "^6.31"
+    "stripe/stripe-php": "^7.29"
   },
   "suggest": {
     "magento-hackathon/magento-composer-installer": "Allows to manage this package as a dependency."
